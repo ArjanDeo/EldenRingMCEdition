@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ermc:mythrite_ingot"
+    }
+  },
+  "result": {
+    "item": "ermc:mythrite_block"
+  }
+}

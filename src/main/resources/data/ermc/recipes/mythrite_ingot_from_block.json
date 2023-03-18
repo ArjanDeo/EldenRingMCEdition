@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ermc:mythrite_block"
+    }
+  ],
+  "result": {
+    "item": "ermc:mythrite_ingot",
+    "count": 9
+  }
+}
