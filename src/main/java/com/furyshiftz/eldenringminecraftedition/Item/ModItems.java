@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, EldenRingMC.MOD_ID);
-    public static final RegistryObject<Item>  MYTHRITE_INGOT = ITEMS.register("mythrite_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item>  MYTHRITE_INGOT = ITEMS.register("mythrite_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ELDEN_RING_TAB)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
 

@@ -1,4 +1,5 @@
 {
   "item.ermc.mythrite_ingot": "Mythrite Ingot",
-  "block.ermc.mythrite_block": "Mythrite Block"
+  "block.ermc.mythrite_block": "Mythrite Block",
+  "itemGroup.ermctab": "Elden Ring"
 }

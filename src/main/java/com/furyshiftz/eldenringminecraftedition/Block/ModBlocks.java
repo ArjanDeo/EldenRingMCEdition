@@ -1,6 +1,7 @@
 package com.furyshiftz.eldenringminecraftedition.Block;
 
 import com.furyshiftz.eldenringminecraftedition.EldenRingMC;
+import com.furyshiftz.eldenringminecraftedition.Item.ModCreativeModeTab;
 import com.furyshiftz.eldenringminecraftedition.Item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +22,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MYTHRITE_BLOCK = registerBlock("mythrite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.ELDEN_RING_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
