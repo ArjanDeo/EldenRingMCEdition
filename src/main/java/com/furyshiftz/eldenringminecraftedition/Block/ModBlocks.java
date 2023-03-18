@@ -22,7 +22,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MYTHRITE_BLOCK = registerBlock("mythrite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.ELDEN_RING_TAB);
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.ELDEN_RING_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
