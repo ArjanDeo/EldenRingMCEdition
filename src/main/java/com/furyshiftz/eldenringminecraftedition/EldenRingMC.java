@@ -1,5 +1,6 @@
 package com.furyshiftz.eldenringminecraftedition;
 
+import com.furyshiftz.eldenringminecraftedition.Block.ModBlocks;
 import com.furyshiftz.eldenringminecraftedition.Item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -33,6 +34,7 @@ public class EldenRingMC {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
