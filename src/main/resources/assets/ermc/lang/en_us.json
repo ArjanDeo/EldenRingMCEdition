@@ -5,5 +5,7 @@
   "item.ermc.scepter_of_the_all_knowing.no_valuables": "The Scepter knows of no valuables here...",
   "item.ermc.scepter_of_the_all_knowing": "§bScepter of the All Knowing §r§6[§lLEGENDARY§r§6]",
   "tooltip.ermc.scepter_of_the_all_knowing.tooltip": "§5§oScepter in the form of a hand grasping a pearl. Signature weapon\n§5§oof Sir Gideon Ofnir, the All-Knowing. The §5§opearl stands for the\n§5§oworld, the heavens, and an eye, representing §5the many forms of\n§5§oknowledge, never fully attainable. Even §5§oknowing that, the All-\n§5§oKnowing's hand grasps for it.\n§fHOLD §e§n§lSHIFT §fFor More Information",
-  "tooltip.ermc.scepter_of_the_all_knowing.tooltip.shift": "§5§oRight-Clicking with the Scepter in hand will reveal all nearby valuables §r§e§o(Ores)."
+  "tooltip.ermc.scepter_of_the_all_knowing.tooltip.shift": "§5§oRight-Clicking with the Scepter in hand will reveal all nearby valuables §r§e§o(Ores).",
+  "item.ermc.godskin_apostle_music_disc": "Godskin Apostle Music Disc",
+  "item.ermc.godskin_apostle_music_disc.desc": "Godskin Apostle [Theme] - Elden Ring"
 }

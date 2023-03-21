@@ -2,6 +2,7 @@ package com.furyshiftz.eldenringminecraftedition;
 
 import com.furyshiftz.eldenringminecraftedition.Block.ModBlocks;
 import com.furyshiftz.eldenringminecraftedition.Item.ModItems;
+import com.furyshiftz.eldenringminecraftedition.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -35,6 +36,7 @@ public class EldenRingMC {
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModSounds.register(eventBus);
 
         eventBus.addListener(this::setup);
 

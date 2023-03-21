@@ -1,0 +1,10 @@
+{
+  "godskin_apostle_theme": {
+    "sounds": [
+      {
+        "name": "ermc:godskin_apostle_theme",
+        "stream": true
+      }
+    ]
+  }
+}
