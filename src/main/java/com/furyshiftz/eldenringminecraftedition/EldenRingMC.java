@@ -1,6 +1,7 @@
 package com.furyshiftz.eldenringminecraftedition;
 
 import com.furyshiftz.eldenringminecraftedition.Block.ModBlocks;
+import com.furyshiftz.eldenringminecraftedition.Item.ModFoods;
 import com.furyshiftz.eldenringminecraftedition.Item.ModItems;
 import com.furyshiftz.eldenringminecraftedition.sound.ModSounds;
 import com.mojang.logging.LogUtils;
